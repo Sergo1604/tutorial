@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>HELLO WORLD, MY NAME IS SERGEY</h1>
-    
-</body>
+    <img src="/photo.jpg" alt="Image example" width="200" height="150" />
+
+    <div class="box">
+      <a href="#" class="link-inline"> <span>Text</span></a>
+      without line break
+    </div>
+    <div class="box">
+      <a href="#" class="link-block"><p>Text</p></a>
+      with line break
+    </div>
+
+    <div class="card">
+      <h4 class="card-title">The order in which files are loaded by the browser</h4>
+      <ol reversed class="card-items">
+        <li class="card-item">HTML file</li>
+        <li class="card-item">Link to files inside head</li>
+        <li class="card-item">Link to files inside body</li>
+      </ol>
+    </div>
+
+    <ul class="cards">
+      <li class="card">
+        <h4 class="card-title">Card title 1</h4>
+        <div class="wrp-img">
+          <img
+            class="card-image"
+            src="https://ac.goit.global/img/photo1.jpg"
+            alt="image description"
+          />
+        </div>
+        <p class="card-description">Description of the topic 1</p>
+      </li>
+      <li class="card">
+        <h4 class="card-title">Card title 2</h4>
+        <div class="wrp-img">
+          <img
+            class="card-image"
+            src="https://ac.goit.global/img/photo2.jpg"
+            alt="image description"
+          />
+        </div>
+        <p class="card-description">Description of the topic 2</p>
+      </li>
+      <li class="card">
+        <h4 class="card-title">Card title 3</h4>
+        <div class="wrp-img">
+          <img
+            class="card-image"
+            src="https://ac.goit.global/img/photo3.jpg"
+            alt="image description"
+          />
+        </div>
+        <p class="card-description">Description of the topic 3</p>
+      </li>
+    </ul>
+
+    <a href="https://goit.global" target="_blank" rel="noopener nofollow noreferrer"> GoIT </a>
+
+    <a href="resume.pdf" download="resume.pdf">Resume</a>
+
+    <!-- Link to phone number  -->
+    <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+    <!-- Link to e-mail address -->
+    <a href="mailto:example@gmail.com">example@gmail.com</a>
+
+    <header id="top">
+      <!-- content from logo, nav, search  -->
+    </header>
+    <main>
+      <aside>
+        <ul>
+          <li><a href="#top">Top of the page</a></li>
+          <li><a href="#page-theme">Main theme</a></li>
+          <li><a href="#bottom">Footer of the page</a></li>
+        </ul>
+      </aside>
+      <article id="page-theme">
+        <!-- main page theme -->
+      </article>
+    </main>
+    <footer id="bottom">
+      <!-- content from logo, nav, contacts, copyright  -->
+    </footer>
+
+    <figure>
+      <img src="https://ac.goit.global/img/photo1.jpg" alt="photo description" />
+      <figcaption>
+        Only one img element and any number of text or other elements can be used inside link. You
+        cannot use interactive elements inside link tag.
+      </figcaption>
+    </figure>
+
+    <a class="link" target="_blank" href="https://goit.global"
+      ><img src="https://ac.goit.global/img/photo1.jpg" alt="note in laptop" />
+    </a>
+    <a class="link" target="_blank" href="https://goit.global">
+      <img src="https://ac.goit.global/img/photo2.jpg" alt="note on paper"
+    /></a>
+    <dl>
+      <dt>Tag span.</dt>
+      <dd>A universal container for text content.</dd>
+      <dt>Tag pre.</dt>
+      <dd>Preservation of spaces and hyphens.</dd>
+      <dt>Tag sup and sub.</dt>
+      <dd>Displays characters in superscript and subscript.</dd>
+      <dt>Tag strong.</dt>
+      <dd>Highlighting an important word or a whole phrase within the text.</dd>
+      <dt>Tag b.</dt>
+      <dd>Visual highlighting of text with a thicker font.</dd>
+      <dt>Tag em.</dt>
+      <dd>Semantically and visually (italic) emphasizes the text.</dd>
+      <dt>Tag i.</dt>
+      <dd>Visually (italic) emphasizes the text.</dd>
+      <dt>Tag address.</dt>
+      <dd>Wraps tags with content about an address or recipient.</dd>
+    </dl>
+
+    <p>
+      Epoch of Unix time started at
+      <time datetime="1970-01-01T00:00"> 00:00:00 UTC on 1 January 1970</time>
+    </p>
+    <span>&#174;</span>
+
+    <audio controls preload="none">
+      <source src="https://goit.ua/autocheck/bensound-summer.mp3"и type="audio/mp3"/>
+    </audio>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+  </body>
 </html>
